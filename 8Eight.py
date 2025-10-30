@@ -30,7 +30,6 @@ b_mv = bytes([65,66,67,68,69])
 mv = memoryview(b_mv)
 print(mv)
 
-#slicing mv
 print("Slicing mv")
 mv_slice = mv[1:4]
 print(mv_slice)

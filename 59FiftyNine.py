@@ -1,5 +1,3 @@
-#Wap in python to determine Season based on month.
-# program to determine season based on month
 
 month = input("Enter month name: ").strip().lower()
 
@@ -13,3 +11,6 @@ elif month in ("october", "november"):
     print("Season: Autumn")
 else:
     print("Invalid month name!")
+
+from Signature_folder.Signature import sign
+sign()

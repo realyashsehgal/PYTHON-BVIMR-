@@ -1,4 +1,3 @@
-#Q16. Write python code to check whether the given number is Armstrong number or not.
 from Signature_folder.Signature import sign
 num = int(input("Enter a number: "))
 order = len(str(num))

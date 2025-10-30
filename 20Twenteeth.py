@@ -1,4 +1,3 @@
-#Q20. Write python code to print all the perfect numbers from 1-2025. Also print the total count.
 from Signature_folder.Signature import sign
 def is_perfect(n):
     return n == sum(i for i in range(1, n // 2 + 1) if n % i == 0)

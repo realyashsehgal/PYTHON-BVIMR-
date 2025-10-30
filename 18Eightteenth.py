@@ -1,4 +1,3 @@
-#Q18. Write python code to print all prime, all perfect and all Armstrong number in a given range.
 from Signature_folder.Signature import sign
 def is_prime(n):
     if n < 2:

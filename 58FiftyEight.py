@@ -1,4 +1,3 @@
-# menu based calculator
 
 while True:
     print("\n--- Simple Calculator ---")
@@ -14,7 +13,6 @@ while True:
         print("Exiting... Goodbye!")
         break
 
-    # take user input for numbers
     a = float(input("Enter first number: "))
     b = float(input("Enter second number: "))
 
@@ -31,3 +29,6 @@ while True:
             print("Error: Division by zero!")
     else:
         print("Invalid choice! Try again.")
+
+from Signature_folder.Signature import sign
+sign()

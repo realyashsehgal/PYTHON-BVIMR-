@@ -1,4 +1,3 @@
-#Q17. Write python code to check whether the given number is prime or not.
 from Signature_folder.Signature import sign
 num = int(input("Enter a number: "))
 if num <= 1:

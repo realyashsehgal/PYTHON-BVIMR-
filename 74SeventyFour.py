@@ -1,7 +1,5 @@
-#. Wap in python to calculate the length of a string without using built-in Len() function. '
 from Signature_folder.Signature import sign
 
-# program to calculate length of a string without using len()
 text = input("Enter a string: ")
 
 count = 0

@@ -1,5 +1,4 @@
 from Signature_folder.Signature import sign
-#Demonstrating a python program to showcase all the datatypes in python
 number_type = 23 #This is a number data type
 text_type = "Hello this is a string" #This is a string data type
 float_type = 3.14 #This is a float type data type
@@ -17,6 +16,5 @@ def showTypes():
     print(type(tuple_type))
     print(type(dictionary_type))
 
-#Calling showTypes function
 showTypes()
 sign()

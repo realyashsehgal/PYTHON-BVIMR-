@@ -1,4 +1,3 @@
-# Q13. Write python code to calculate your age on given date.
 from datetime import datetime
 from Signature_folder.Signature import sign
 def calculate_age(birth_date_str, given_date_str):
@@ -9,7 +8,6 @@ def calculate_age(birth_date_str, given_date_str):
         age -= 1
     return age
 
-# Example usage:
 birth_date = input("Enter your birth date (YYYY-MM-DD): ")
 given_date = input("Enter the given date (YYYY-MM-DD): ")
 print("Your age on", given_date, "is:", calculate_age(birth_date, given_date))

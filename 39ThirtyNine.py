@@ -1,4 +1,3 @@
-#Q40. Write a python code to demonstrate try, except, else and finally.
 try:
     num = int(input("Enter a number: "))
     result = 10 / num
@@ -10,3 +9,5 @@ else:
     print(f"Division successful. Result is {result}")
 finally:
     print("Execution completed.")
+from Signature_folder.Signature import sign
+sign()

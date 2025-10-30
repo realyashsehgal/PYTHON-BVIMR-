@@ -1,4 +1,3 @@
-#Q15. Write python code to check whether the given number is perfect number or not.
 from Signature_folder.Signature import sign
 num = int(input("Enter a number: "))
 sum_of_divisors = 0

@@ -1,7 +1,5 @@
-#Write a python code to demonstrate global variables with nested function.
 from Signature_folder.Signature import sign
 
-# global variable
 count = 0
 
 def outer_function():
@@ -16,7 +14,6 @@ def outer_function():
 
     inner_function()
 
-# calling the outer function
 outer_function()
 print("Count outside function:", count)
 

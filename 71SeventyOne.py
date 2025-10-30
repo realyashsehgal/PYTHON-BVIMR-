@@ -1,7 +1,5 @@
-# Write a python code to print all the Armstrong number in a given range.
 from Signature_folder.Signature import sign
 
-# program to print all Armstrong numbers in a given range
 lower = int(input("Enter lower range: "))
 upper = int(input("Enter upper range: "))
 

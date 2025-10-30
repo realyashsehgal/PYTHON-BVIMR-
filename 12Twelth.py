@@ -1,4 +1,3 @@
-#Write python code to input name, class, roll no, age and print using formatted print method
 from Signature_folder.Signature import sign
 name = input("Enter your name: ")
 class_name = input("Enter your class: ")
